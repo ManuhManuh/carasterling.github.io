@@ -1,0 +1,88 @@
+OctaviCopter: Hear I Am (Sept,Nov 2023)
+
+This is a multi-sensory msical ear training VR application that I collaborated on.  While flying the OctaviCopter to collect notes, the learner experiences sight, sound, touch and spatial awareness totrain their ear!  The festival edition of this application had its exhibition debut at the 2023 IAA Mobility at Konigsplatz in Munich! Now featurning a brand new tutorial level, with both English and German voice overs!
+
+My contributions were:
+*Coding the game play
+*Some of the animations (window/door opening, hint buttons)
+*Sound effects for buttons and UI
+*Contributions to UI layout
+*Localization integration
+*Troubleshooting and debigging
+*English voice overs and sound editing
+
+The Festival Edition is designed to be fun to play for a few minutes to get a taste of how it feels.  The educational version will contain many more levels that progress from basics to advanced in a manner that allows a learnerto develop good relative pitch!
+
+*******************************
+The New Recipe: Chapter 01 (May-Nov 2021, Jun-Nov 2023)
+
+This is the first chapter of what is intended to be a longer VR escape room adventure involving a very special wine recipe. I wanted to have something polished enough to publish, in a size that could be reasonably accomplished alone; extra chapters can be added, now that gameplay and interactions are already established.
+
+This project provided some serious learning opportunities, including:
+*Upgrading to XR Interaction Toolkit after coding interactions from scratch: this was NOT a trivial activity, and it taught me much about proper encapsulation
+*Lighting: Getting the lighting right was important to me (as a theatre tech), and this project taught me the importance of light probes, reflection probes and mixed lighting
+*Asset management: The assets are a combination of third party assets, assets I created in Unity, and assets I created in Blender. Getting them all to work together taught me about how important having the proper art pipeline can be
+*Custom shader: HLSL - needed to make "reveal" bottles
+
+*******************************
+Tower Defense: feat. Tuna Turner and Chick Norris
+
+This is a modification of Unity's Tower Defense game, that now features Tuna Turner as a Tank and Chick Norris as a Super Tower! This was a group project with two other people; my contributions were:
+*Added the code to allow for conditional waves (enemies that only spawn with high score)
+*Did the necessary adjustments so the UI and levels worked correctly with the new agents
+*Built a demo level to showcase the new characters without having to achieve a high score (which was the intended placement of the new characters)
+
+This project was a great learning opportunity! We were tasked with adding a feature to an existing game, and it happened to be missing half the documentation.  Thankfully, the code base was good (logical naming and organization) so it was possible to figure out what we needed to do to allow Tuna and Chick to infiltrate!
+
+*******************************
+Karting in Mud (June 2022)
+
+This is a modification of Unity's Karting Microgame. I added mud to the track!
+*Added modifiers to top speed, acceleration, and a flag for allowing drifting
+*Created a Hazard class that changes these modifiers
+*Created a Mud subclass with the special values for mud
+*Created and added mud sounds
+*Added road material and particle system for the mud
+
+This was one of my favourite assignments! It required getting a good idea of the existing code base and surgically adding the feature without disrupting the original gameplay.  I also included the potential for adding other hazards such as ice, which can now be added without modification (just the addition of an Ice subclass and some more wintery assets!
+
+*******************************
+Eggsellent Adventure (Nov 2021)
+
+This is a game that I started as part of the Unity tutorial for pillars of OOP programming; I liked how it turned out, so I made it into a full fledged game! Built for PC, Android and iOS.
+
+*Encapsulation: used properties rather than public variables
+*Abstraction: each method basically only does one thing, and calls helper methods if required
+*Inheritance: Different types of eggs and food inherit from base classes
+*Polymorphism: Eggs override the Hatch method with their own brand of hatching (actual hatching art not yet implemented, but code structure is there)
+
+I purchased the chicken asset (with its animations) but made the rest
+
+There are not nearly as many chicken jokes as I would have liked - if anyone knows any more I could add to this, please send using my contact information on the home page!
+
+Look for a web version coming soon!
+
+*******************************
+The EZ Button: Game of Throws (March 2021)
+
+Throw office supplies at the ever complaining CyberBoss until he self-destructs! This is from a class assignment where we had to use the various skills we had learned up to that point: interaction, locomotion, animation, particle systems, etc.
+
+This was a great opportunity to give context to the individual skills we had learned and get them to work together.  I definitely got schooled in physics and collisions while doing this project (mainly with the EZ button and with keeping the CyberBoss from having sunken feet), and had a ton of fun with the voice overs!
+
+*******************************
+Desk Forest: Make it Rain
+
+This is an AR application that will grow grass, trees and flowers on your desktop, but only if you make it rain!  Some of the things I learned in this project were:
+*Basic animation
+*Anchoring UI elements to allow for adjustable screen sizes
+*Shadowing text so it is visible regardless of the background on the camera
+
+This was a bit of a technical challenge, as when I first started it I had a PC/iPhone combination that was impossible to test with!  After a few iterations with tablets and casting and laptops (functioned, but very awkward), I finally broke down and bought a detachable webcam for the desktop.  Luckily, Vuforia allows this kind of preview - when we moved on to AR Foundation, I ended up getting an Android phone for development.
+
+*******************************
+VeRa
+
+I UV unwrapped her, painted her, rigged her, and gave her a headset just like mine!
+
+Keep an eye out - one day in the near future she will be animated!
+
