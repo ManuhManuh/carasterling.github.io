@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="../style.css">
+  <title>Desk Forest</title>
+</head>
+
+<body>
+    <div class="container text-light px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="../images/deskforest.png" class="d-block mx-lg-auto img-fluid" alt="desk forest" width="1280" height="720" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-light lh-1 mb-3">Desk Forest: Make It Rain!</h1>
+          <p class="lead">This is an AR application that will grow grass, trees and flowers on your desktop, but only if you make it rain!</p>
+          <p>Some of the things I learned in this project were:</p>
+          <ul>
+            <li>Basic animation</li>
+            <li>Anchoring UI elements to allow for adjustable screen sizes</li>
+            <li>Shadowing text so it is visible regardless of the background on the camerae</li>
+          </ul>
+          <p>This was a bit of a technical challenge, as when I first started it I had a PC/iPhone combination that was impossible to test with!  After a few iterations with tablets and casting and laptops (functioned, but very awkward), I finally broke down and bought a detachable webcam for the desktop.  Luckily, Vuforia allows this kind of preview - when we moved on to AR Foundation, I ended up getting an Android phone for development.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-5">
+            <button type="button" id="back" class="btn btn-outline-secondary btn-lg px-4 me-md-2">Back to Portfolio</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../index.js"></script>
+</body>
