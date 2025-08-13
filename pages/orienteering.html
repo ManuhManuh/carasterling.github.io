@@ -14,19 +14,21 @@
     <div class="container text-light px-4 py-5">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
-          <iframe width="1250" height="703" src="https://www.youtube.com/embed/B7JtYLbAiFc" title="The New Recipe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="750" height="500" src="../video/OrienteeringDemo.mp4" title="Orienteering Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
         </div>
         <div class="col-lg-6">
           <h1 class="display-5 fw-bold text-light lh-1 mb-3">Orienteering</h1>
-          <p class="lead">This is a VR experience, brought to you by VentR-out, that is meant to "Extend the Outdoors". It features orienteer racing with a map and compass, alone or as a team.</p>
-          <p>I was originally contracted to take care of the backend stuff, specifically PlayFab and Azure.  I ended up doing that, and quite a bit more.</p>
+          <p class="lead">This is a VR experience, brought to you by VentR-out, that is meant to "Extend the Outdoors". It features orienteer racing with a map and compass, alone or as a team.  The racing locations are replicas of real life parks, using older courses created by master map makers</p>
+          <p>I was originally contracted to take care of the backend stuff, specifically PlayFab and Azure, and have moved into a lead developer position.</p>
           <p>I have learned an incredible amount from working on this project:</p>
           <ul>
-            <li>Using Azure for server side APIs</li>
-            <li>Working with a team of up to 10 people from four continents</li>
-            <li>Having to stick to someone else's design: when working on solo projects or in pairs, it's really easy to fall back on "if at first you don't succeed, redefine success".  When you have to stick to a design, you just have to figure out the hard stuff.</li>
+            <li>Using Azure for server side APIs and addressables</li>
             <li>Integrating SDKs: This project uses many, and sometimes they fight...</li>
-            <li>How to make orienteering maps!</li>
+            <li>Multiplayer: This project is fully multiplayer, but also has to work where there is limited or no connectivity (particularly when demonstrating at events)</li>
+            <li>Scaling UI: Racers use maps that have a specified scale and are accurate to the terrain (render camera used for player position).  This was more challenging than it might seem.</li>
+            <li>Working with a team of up to 10 people from four continents</li>
+            <li>Sticking to someone else's design: when working on solo projects or in pairs, it's really easy to fall back on "if at first you don't succeed, redefine success".  When you have to stick to a design, you just have to figure out the hard stuff.</li>
+            <li>Adaptability: As the focus for the project changed (from game to simulation) some beloved things got dropped, and some cool new ones emerged</li>
           </ul>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-5">
             <button type="button" id="back" class="btn btn-outline-secondary btn-lg px-4 me-md-2">Back to Portfolio</button>
